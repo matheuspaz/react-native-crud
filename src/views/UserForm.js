@@ -32,8 +32,16 @@ export default ({route, navigation}) => {
             />
 
             <Button 
-                type='clear'
-                icon={<Icon name='confirm' />}
+                title="Salvar"
+                iconRight
+                iconContainerStyle={{
+                    marginLeft: 5
+                }}
+                icon={{
+                    name: 'check',
+                    size: 20,
+                    color: 'white',
+                }}
                 onPress={() => {
                     
                 }}
