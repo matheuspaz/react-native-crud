@@ -43,7 +43,7 @@ export default ({route, navigation}) => {
                     color: 'white',
                 }}
                 onPress={() => {
-                    
+                    navigation.goBack()
                 }}
             />
         </View>
